@@ -41,7 +41,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-           Credit for the source template : <a style={{color:"gray"}} href="https://github.com/ThotaPavanKumar/Portfolio">Pavan Kumar</a>
+           Credit for the source template : <a style={{color:"gray"}} href="https://github.com/ThotaPavanKumar/Portfolio" target="_blank">Pavan Kumar</a>
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

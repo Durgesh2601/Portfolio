@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['HTML', 'CSS','JavaScript', 'Node', "Express"],
       source: 'https://github.com/saurabh0413/Nykaaman',
-      visit: 'https://saurabh0413.github.io/Nykaaman-FW13-T45/',
+      visit: 'https://nykamaan.herokuapp.com/',
     id: 0,
   },
   {

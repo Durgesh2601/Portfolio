@@ -4,7 +4,6 @@ import {FaNode, FaNodeJs} from 'react-icons/fa'
 import {FcLinux} from '../../../public/images/bootstrap.png'
 import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript } from 'react-icons/si';
 
-
 const TechIcons = ({tag}) => {
     if(tag === 'React')
         return <DiReact size = '38%' color = '#5ED4F3' />

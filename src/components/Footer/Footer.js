@@ -41,7 +41,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>
-           Credit for the source template : <a style={{color:"gray"}} href="https://github.com/ThotaPavanKumar/Portfolio" target="_blank">Pavan Kumar</a>
+          © 2022 Designed by : <a style={{color:"gray"}} href="https://github.com/ThotaPavanKumar/Portfolio" target="_blank">Pavan Kumar</a>
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

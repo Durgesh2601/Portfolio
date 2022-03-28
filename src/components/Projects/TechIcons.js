@@ -29,8 +29,8 @@ const TechIcons = ({tag}) => {
         return <DiWindows size = '38%'/>
     else if(tag === 'VS code')
         return <SiVisualstudiocode size = '38%' color = '#2174B3'/>
-    // else if(tag === 'Bootstrap')
-    //     return <DiJava size = '38%' color = '#E06C00'/>
+    else if(tag === 'Bootstrap')
+        return <FaBootstrap size = '38%' color = '#E06C00'/>
     else if(tag === 'ExpressJS')
         return <FaNodeJs size = '38%' color = '#E06C00'/>
     return <SiRedux size = '38%'/>

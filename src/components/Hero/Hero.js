@@ -15,9 +15,13 @@ const Hero = (props) => (
       Durgesh Kumar Singh
       </SectionTitle>
       <SectionText>
-      </SectionText>
+        Software Engineer at <a href='https://www.sourcewiz.co/' target='_blank' style={{color:"magenta", textDecoration:"underline", marginRight:"1em"}}>Sourcewiz</a>{" "}
+        <br/>
+        (May 2022 - Present)
+      </SectionText> <br/>
       <WritingEffect />
-   <Button onClick = {() => window.open('https://drive.google.com/file/d/1GygP7dY5a9amv7YKC6jJAh6ulHjPWCem/view?usp=sharing', '_blank')}>Resume </Button>
+      {/* <h1 style={{color:"magenta"}}>Full Stack Web Developer</h1> */}
+   <Button onClick = {() => window.open('https://drive.google.com/file/d/18DEzXNnRtzxyBf60MrTHPwSsumj_4dyN/view?usp=sharing', '_blank')}>Resume </Button>
     </LeftSection>
 
   </Section>

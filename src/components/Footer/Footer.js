@@ -1,7 +1,11 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
-import {Contact} from '../contact/Contact'
+import { Contact } from "../contact/Contact";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -20,7 +24,7 @@ const Footer = () => {
     <FooterWrapper>
       <SectionDivider />
       <br />
-      <SectionTitle id='contact'>Contact Me</SectionTitle>
+      <SectionTitle id="contact">Contact Me</SectionTitle>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -29,21 +33,18 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:dk829445@gmail.com">
-          dk829445@gmail.com
+            dk829445@gmail.com
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Location</LinkTitle>
-          <LinkItem href="https://goo.gl/maps/nQfGp3YSirewwipC7">Ballia,Uttar Pradesh</LinkItem>
+          <LinkItem href="https://goo.gl/maps/nQfGp3YSirewwipC7">
+            Ballia,Uttar Pradesh
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       {/* <Contact /> */}
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>
-          © 2022 Designed by : <a style={{color:"gray"}} href="https://github.com/ThotaPavanKumar/Portfolio" target="_blank">Pavan Kumar</a>
-          </Slogan>
-        </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Durgesh2601" target="_blank">
             <AiFillGithub size="3rem" />
@@ -54,9 +55,9 @@ const Footer = () => {
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href = "https://twitter.com/Durgesh13297" target="_blank">
-        <AiFillTwitterCircle  size="3rem"/>
-      </SocialIcons>
+          <SocialIcons href="https://twitter.com/Durgesh13297" target="_blank">
+            <AiFillTwitterCircle size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

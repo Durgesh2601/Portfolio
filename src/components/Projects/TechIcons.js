@@ -1,40 +1,78 @@
-import React from 'react';
-import { DiReact, DiFirebase,DiMongodb, DiCss3, DiJavascript, DiWindows  } from 'react-icons/di';
-import {FaNode, FaNodeJs} from 'react-icons/fa'
-import {FcLinux} from '../../../public/images/bootstrap.png'
-import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript } from 'react-icons/si';
+import React from "react";
+import {
+  DiReact,
+  DiFirebase,
+  DiMongodb,
+  DiCss3,
+  DiWindows,
+} from "react-icons/di";
+import { FaNode, FaNodeJs, FaBootstrap } from "react-icons/fa";
+import {
+  SiRedux,
+  SiJson,
+  SiHtml5,
+  SiVisualstudiocode,
+  SiJavascript,
+  SiNextdotjs,
+  SiTypescript,
+} from "react-icons/si";
 
-const TechIcons = ({tag}) => {
-    if(tag === 'React')
-        return <DiReact size = '38%' color = '#5ED4F3' />
-    else if(tag === 'Firebase')
-        return <DiFirebase size = '38%' color='#F7C428'/>
-    else if(tag === 'Mongodb')
-        return <DiMongodb size = '38%' color = '#559134'/>
-    else if(tag === 'Node')
-        return <FaNode size = '38%'/>
-    else if(tag === 'CSS')
-        return <DiCss3 size = '38%'  color = "#2171B6"/>
-    else if(tag === 'JavaScript')
-        return <SiJavascript size = '38%' color = '#EFD81C'/>
-    else if(tag === 'JSON')
-        return <SiJson size = '38%'/>
-    else if(tag === 'HTML')
-        return <SiHtml5 size = '38%' color = "#DC4A25"/>  
-    else if(tag === 'Redux')
-        return <SiRedux size = '38%' color = '#7248B6'/> 
-    else if(tag === 'Bootstrap')
-        return <FcLinux size = '38%'/>
-    else if(tag === 'Windows')
-        return <DiWindows size = '38%'/>
-    else if(tag === 'VS code')
-        return <SiVisualstudiocode size = '38%' color = '#2174B3'/>
-    else if(tag === 'Bootstrap')
-        return <FaBootstrap size = '38%' color = '#E06C00'/>
-    else if(tag === 'ExpressJS')
-        return <FaNodeJs size = '38%' color = '#E06C00'/>
-    return <SiRedux size = '38%'/>
-    
-   
-}
+const TechIcons = ({ tag }) => {
+  let iconComponent;
+  let size = "38%";
+
+  switch (tag) {
+    case "React":
+      iconComponent = <DiReact size={size} color="#5ED4F3" />;
+      break;
+    case "Firebase":
+      iconComponent = <DiFirebase size={size} color="#F7C428" />;
+      break;
+    case "Mongodb":
+      iconComponent = <DiMongodb size={size} color="#559134" />;
+      break;
+    case "Node":
+      iconComponent = <FaNode size={size} />;
+      break;
+    case "CSS":
+      iconComponent = <DiCss3 size={size} color="#2171B6" />;
+      break;
+    case "JavaScript":
+      iconComponent = <SiJavascript size={size} color="#EFD81C" />;
+      break;
+    case "JSON":
+      iconComponent = <SiJson size={size} />;
+      break;
+    case "HTML":
+      iconComponent = <SiHtml5 size={size} color="#DC4A25" />;
+      break;
+    case "Redux":
+      iconComponent = <SiRedux size={size} color="#7248B6" />;
+      break;
+    case "Windows":
+      iconComponent = <DiWindows size={size} />;
+      break;
+    case "VS code":
+      iconComponent = <SiVisualstudiocode size={size} color="#2174B3" />;
+      break;
+    case "Bootstrap":
+      iconComponent = <FaBootstrap size={size} color="#E06C00" />;
+      break;
+    case "ExpressJS":
+      iconComponent = <FaNodeJs size={size} color="#E06C00" />;
+      break;
+    case "TypeScript":
+      iconComponent = <SiTypescript size={size} />;
+      break;
+    case "Next.js":
+      iconComponent = <SiNextdotjs size={size} />;
+      break;
+    default:
+      iconComponent = <SiRedux size={size} />;
+      break;
+  }
+
+  return iconComponent;
+};
+
 export default TechIcons;

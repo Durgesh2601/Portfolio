@@ -10,25 +10,35 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Instagram",
+    title: "DevExplorer",
     description:
-      "Instagram is a well known social media platform owned by meta where users can share pictures and videos with captions and emojis.",
-    image: "/images/0.png",
-    tags: ["React", "Node", "ExpressJS", "Mongodb"],
-    source: "https://github.com/Amanfw13064/Instagram_Front-end.git",
-    visit: "https://insagram-mern.netlify.app/",
+      "Dev Explorer is a web application that allows users to explore detailed information about developers on platforms like GitHub.",
+    image: "/images/dev-explorer.png",
+    tags: ["React", "TypeScript", "Material UI"],
+    source: "https://github.com/Durgesh2601/DevExplorer",
+    visit: "https://dev-explorer.vercel.app/",
     id: 1,
   },
-  {
-    title: "NykaaMan",
-    description:
-      "NykaaMan is an Indian e-commerce company, It sells beauty, wellness and fashion products exclusively for men across websites, mobile apps and offline stores.",
-    image: "/images/1.png",
-    tags: ["HTML", "CSS", "JavaScript", "Node", "ExpressJS"],
-    source: "https://github.com/saurabh0413/Nykaaman",
-    visit: "https://nykamaan.herokuapp.com/",
-    id: 2,
-  },
+  // {
+  //   title: "Instagram",
+  //   description:
+  //     "Instagram is a well known social media platform owned by meta where users can share pictures and videos with captions and emojis.",
+  //   image: "/images/0.png",
+  //   tags: ["React", "Node", "ExpressJS", "Mongodb"],
+  //   source: "https://github.com/Amanfw13064/Instagram_Front-end.git",
+  //   visit: "https://insagram-mern.netlify.app/",
+  //   id: 1,
+  // },
+  // {
+  //   title: "NykaaMan",
+  //   description:
+  //     "NykaaMan is an Indian e-commerce company, It sells beauty, wellness and fashion products exclusively for men across websites, mobile apps and offline stores.",
+  //   image: "/images/1.png",
+  //   tags: ["HTML", "CSS", "JavaScript", "Node", "ExpressJS"],
+  //   source: "https://github.com/saurabh0413/Nykaaman",
+  //   visit: "https://nykamaan.herokuapp.com/",
+  //   id: 2,
+  // },
 ];
 
 export const TimeLineData = [

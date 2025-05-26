@@ -18,9 +18,9 @@ const Hero = (props) => (
         Durgesh Kumar Singh
       </SectionTitle>
       <SectionText>
-        Software Engineer at{" "}
+        SDE-2 at{" "}
         <a
-          href="https://www.sourcewiz.co/"
+          href="https://wizcommerce.com/"
           target="_blank"
           style={{
             color: "magenta",
@@ -28,7 +28,7 @@ const Hero = (props) => (
             marginRight: "1em",
           }}
         >
-          Sourcewiz
+          WizCommerce
         </a>{" "}
         <br />
         (May 2022 - Present)

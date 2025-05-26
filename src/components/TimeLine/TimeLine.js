@@ -69,12 +69,16 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Focused and quick learning full-stack web developer with a passion for
-        developing innovative programs. Skilled at reading and writing codes
-        using viable inputs and outputs. Strong communication skills and the
-        ability to listen carefully to user feedback to determine modifications.<br/>
-        I am amiable, proficient in remote collaboration, and committed
-        to achieving organizational goals.
+        I’m a passionate and results-driven Frontend Engineer with over 2.5
+        years of experience building scalable, performant web applications using
+        modern technologies like React, TypeScript, and Next.js. I enjoy
+        transforming complex problems into elegant, user-friendly solutions and
+        thrive in collaborative, fast-paced environments. <br />
+        I’m a strong communicator who values feedback and iteration. My approach
+        blends clean code practices with a deep focus on user experience. I'm
+        highly proficient in remote collaboration and am committed to delivering
+        high-quality products that meet business goals and enhance end-user
+        engagement.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

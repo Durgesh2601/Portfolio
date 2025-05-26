@@ -38,8 +38,8 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Location</LinkTitle>
-          <LinkItem href="https://goo.gl/maps/nQfGp3YSirewwipC7">
-            Ballia,Uttar Pradesh
+          <LinkItem href="https://maps.app.goo.gl/zDf6xjib3yDXeGBt8" target="_blank">
+            Bengaluru,Karnataka,India
           </LinkItem>
         </LinkColumn>
       </LinkList>

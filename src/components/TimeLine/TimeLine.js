@@ -69,7 +69,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I’m a passionate and results-driven Frontend Engineer with over 2.5
+        I’m a passionate and results-driven Frontend Engineer with over 3
         years of experience building scalable, performant web applications using
         modern technologies like React, TypeScript, and Next.js. I enjoy
         transforming complex problems into elegant, user-friendly solutions and

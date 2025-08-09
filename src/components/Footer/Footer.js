@@ -2,8 +2,9 @@ import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillTwitterCircle,
+  // AiFillTwitterCircle,
 } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
 import { Contact } from "../contact/Contact";
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -55,8 +56,8 @@ const Footer = () => {
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/Durgesh13297" target="_blank">
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href="https://x.com/siingh_durgesh" target="_blank">
+            <FaSquareXTwitter size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

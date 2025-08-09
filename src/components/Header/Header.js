@@ -1,16 +1,29 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai';
-import { SocialIcon } from 'react-social-icons';
-import { DiCssdeck } from 'react-icons/di';
+import Link from "next/link";
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  // AiFillTwitterCircle,
+} from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { SocialIcon } from "react-social-icons";
+import { DiCssdeck } from "react-icons/di";
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+  Span,
+} from "./HeaderStyles";
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link href = '/'>
-        <a style = {{display: "flex", alignItems:"center", color:'white'}}>
+      <Link href="/">
+        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           {/* <DiCssdeck size = "3rem" />  */}
           <Span>{`<Durgesh/>`}</Span>
         </a>
@@ -18,37 +31,40 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href = '#projects'>
+        <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href = '#tech'>
+        <Link href="#tech">
           <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href = '#about'>
+        <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href = '#contact'>
+        <Link href="#contact">
           <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href = "https://github.com/Durgesh2601" target="_blank">
+      <SocialIcons href="https://github.com/Durgesh2601" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href = "https://www.linkedin.com/in/siinghdurgesh/" target="_blank">
+      <SocialIcons
+        href="https://www.linkedin.com/in/siinghdurgesh/"
+        target="_blank"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href = "https://twitter.com/Durgesh13297" target="_blank">
-        <AiFillTwitterCircle  size="3rem"/>
+      <SocialIcons href="https://x.com/siingh_durgesh" target="_blank">
+        {/* <AiFillTwitterCircle  size="3rem"/> */}
+        <FaSquareXTwitter size="3rem" />
       </SocialIcons>
-      
     </Div3>
   </Container>
 );
